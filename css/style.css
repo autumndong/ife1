@@ -1,0 +1,125 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    min-width: 1000px;
+}
+.head{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+.content{
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+.content ul li{
+    display: inline;
+    color: white;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.content ul {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 0;
+    padding: 0;
+}
+.content p{
+    color: white;
+    line-height: 100px;
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-color: green;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.banner ul{
+    margin: 0;
+    padding: 0;
+    bottom: 10px;
+    right: 230px;
+    position: absolute;
+}
+.banner ul li{
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    background-color:white;
+    opacity: 0.5;
+    border: solid 1px black;
+    display: inline-block;
+    text-align: center;
+
+}
+li#choose{
+    opacity: 0.7;
+    padding-top: 10px;
+}
+.navi{
+    width: 100%;
+    height: 70px;
+    border-bottom: solid 1px gainsboro;
+}
+.navicon{
+    width: 960px;
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+}
+.navicon li{
+    display: inline-block;
+    background-color: rgba(0,0,0,0.1);
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px 20px 0 0;
+    font-size: 15px;
+    border: solid 1px gainsboro;
+    border-bottom-style: none;
+}
+li#home{
+    background-color: white;
+    padding-bottom: 1px;
+}
+.navicon ul{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: -1px;
+}
+.main{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.main div{
+    border: solid 1px gainsboro;
+    padding: 80px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    flex: auto;
+
+}
+.footer{
+    font-size: 14px;
+    background-color: gray;
+    color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.footer p{
+    line-height: 3em;
+}
